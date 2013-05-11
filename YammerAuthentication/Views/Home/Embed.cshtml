@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Embed";
+}
+
+<h2>Embed Demo</h2>
+
+<script data-app-id="hyB2pTvrL36Y50py8EWj6A"
+        src="https://assets.yammer.com/platform/yam.js"></script>
+
+<script> yam.connect.embedFeed({
+    container: "#normal-embedded-feed",
+    network: "provinggroundtestnetwork312.com",
+    feedType: "group",
+    feedId: "1560462"});
+</script>
+
+<div id="normal-embedded-feed"></div>

@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "ActionButton";
+}
+
+<h2>Action Button</h2>
+<p>Action buttons generate activity stories in Yammer for any page. Each object is keyed by URL.</p>
+
+<script data-app-id="hyB2pTvrL36Y50py8EWj6A"
+        src="https://assets.yammer.com/platform/yam.js"></script>
+
+<script>yam.connect.actionButton({
+    container: "#embedded-like",
+    network: "provinggroundtestnetwork312.com",
+    action: "like"
+});
+</script>
+
+<div id="embedded-like"></div>
