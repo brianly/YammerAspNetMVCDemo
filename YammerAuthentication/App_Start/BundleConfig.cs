@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Optimization;
+using Microsoft.Web.Optimization;
 
 namespace YammerAuthentication
 {
